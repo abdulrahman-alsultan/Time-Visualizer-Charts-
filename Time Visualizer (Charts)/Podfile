@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Time Visualizer (Charts)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Time Visualizer (Charts)
+  pod 'Charts'
+
+  target 'Time Visualizer (Charts)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Time Visualizer (Charts)UITests' do
+    # Pods for testing
+  end
+
+end

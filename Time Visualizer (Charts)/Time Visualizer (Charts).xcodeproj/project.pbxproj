@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8492EB36277741FE0031CF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB35277741FE0031CF8F /* AppDelegate.swift */; };
+		8492EB38277741FE0031CF8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB37277741FE0031CF8F /* SceneDelegate.swift */; };
+		8492EB3A277741FE0031CF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB39277741FE0031CF8F /* ViewController.swift */; };
+		8492EB3D277741FE0031CF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB3B277741FE0031CF8F /* Main.storyboard */; };
+		8492EB3F277741FF0031CF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB3E277741FF0031CF8F /* Assets.xcassets */; };
+		8492EB42277741FF0031CF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492EB40277741FF0031CF8F /* LaunchScreen.storyboard */; };
+		8492EB4D277741FF0031CF8F /* Time_Visualizer__Charts_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB4C277741FF0031CF8F /* Time_Visualizer__Charts_Tests.swift */; };
+		8492EB57277741FF0031CF8F /* Time_Visualizer__Charts_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB56277741FF0031CF8F /* Time_Visualizer__Charts_UITests.swift */; };
+		8492EB59277741FF0031CF8F /* Time_Visualizer__Charts_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB58277741FF0031CF8F /* Time_Visualizer__Charts_UITestsLaunchTests.swift */; };
+		8492EB662777708C0031CF8F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB652777708C0031CF8F /* MyTableViewCell.swift */; };
+		8492EB6827785E1B0031CF8F /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB6727785E1B0031CF8F /* WordsViewController.swift */; };
+		8492EB6A277863530031CF8F /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB69277863530031CF8F /* ChartViewController.swift */; };
+		8492EB6C27788D170031CF8F /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EB6B27788D170031CF8F /* ChartTableViewCell.swift */; };
+		B96E4D979F43BBA66F157C09 /* Pods_Time_Visualizer__Charts_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C882740DC2CC721734F63911 /* Pods_Time_Visualizer__Charts_.framework */; };
+		D7BDB48B755FEEBADC487318 /* Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEAE804FACF84A6700FF838 /* Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework */; };
+		F7700F5A270D232F158EF6AA /* Pods_Time_Visualizer__Charts_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A2A8572260B4FB386EAA96 /* Pods_Time_Visualizer__Charts_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8492EB49277741FF0031CF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492EB2A277741FE0031CF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8492EB31277741FE0031CF8F;
+			remoteInfo = "Time Visualizer (Charts)";
+		};
+		8492EB53277741FF0031CF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8492EB2A277741FE0031CF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8492EB31277741FE0031CF8F;
+			remoteInfo = "Time Visualizer (Charts)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4392EAC85A3134A4C32B28BF /* Pods-Time Visualizer (Charts)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts)Tests.debug.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)Tests/Pods-Time Visualizer (Charts)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57A2A8572260B4FB386EAA96 /* Pods_Time_Visualizer__Charts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Visualizer__Charts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492EB32277741FE0031CF8F /* Time Visualizer (Charts).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Visualizer (Charts).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492EB35277741FE0031CF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8492EB37277741FE0031CF8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8492EB39277741FE0031CF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8492EB3C277741FE0031CF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8492EB3E277741FF0031CF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8492EB41277741FF0031CF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8492EB43277741FF0031CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492EB48277741FF0031CF8F /* Time Visualizer (Charts)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Visualizer (Charts)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492EB4C277741FF0031CF8F /* Time_Visualizer__Charts_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer__Charts_Tests.swift; sourceTree = "<group>"; };
+		8492EB52277741FF0031CF8F /* Time Visualizer (Charts)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Visualizer (Charts)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8492EB56277741FF0031CF8F /* Time_Visualizer__Charts_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer__Charts_UITests.swift; sourceTree = "<group>"; };
+		8492EB58277741FF0031CF8F /* Time_Visualizer__Charts_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer__Charts_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8492EB652777708C0031CF8F /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		8492EB6727785E1B0031CF8F /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		8492EB69277863530031CF8F /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		8492EB6B27788D170031CF8F /* ChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewCell.swift; sourceTree = "<group>"; };
+		A475CCB0F0EC9EAD260C28D4 /* Pods-Time Visualizer (Charts).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts).debug.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)/Pods-Time Visualizer (Charts).debug.xcconfig"; sourceTree = "<group>"; };
+		B191246ECB900D8221A0DBD5 /* Pods-Time Visualizer (Charts)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts)Tests.release.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)Tests/Pods-Time Visualizer (Charts)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C882740DC2CC721734F63911 /* Pods_Time_Visualizer__Charts_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Visualizer__Charts_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB971A74B93B7D9A05A25F32 /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.debug.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5D39E98D502DEE219369FF /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.release.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6FF320067C93FA35FEFB86E /* Pods-Time Visualizer (Charts).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Visualizer (Charts).release.xcconfig"; path = "Target Support Files/Pods-Time Visualizer (Charts)/Pods-Time Visualizer (Charts).release.xcconfig"; sourceTree = "<group>"; };
+		FCEAE804FACF84A6700FF838 /* Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8492EB2F277741FE0031CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96E4D979F43BBA66F157C09 /* Pods_Time_Visualizer__Charts_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB45277741FF0031CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7700F5A270D232F158EF6AA /* Pods_Time_Visualizer__Charts_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB4F277741FF0031CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BDB48B755FEEBADC487318 /* Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB3CC5842174B2718833D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A475CCB0F0EC9EAD260C28D4 /* Pods-Time Visualizer (Charts).debug.xcconfig */,
+				F6FF320067C93FA35FEFB86E /* Pods-Time Visualizer (Charts).release.xcconfig */,
+				EB971A74B93B7D9A05A25F32 /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.debug.xcconfig */,
+				EF5D39E98D502DEE219369FF /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.release.xcconfig */,
+				4392EAC85A3134A4C32B28BF /* Pods-Time Visualizer (Charts)Tests.debug.xcconfig */,
+				B191246ECB900D8221A0DBD5 /* Pods-Time Visualizer (Charts)Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8492EB29277741FE0031CF8F = {
+			isa = PBXGroup;
+			children = (
+				8492EB34277741FE0031CF8F /* Time Visualizer (Charts) */,
+				8492EB4B277741FF0031CF8F /* Time Visualizer (Charts)Tests */,
+				8492EB55277741FF0031CF8F /* Time Visualizer (Charts)UITests */,
+				8492EB33277741FE0031CF8F /* Products */,
+				4AB3CC5842174B2718833D64 /* Pods */,
+				9D0D9F1B2E5DC520546F8A97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8492EB33277741FE0031CF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8492EB32277741FE0031CF8F /* Time Visualizer (Charts).app */,
+				8492EB48277741FF0031CF8F /* Time Visualizer (Charts)Tests.xctest */,
+				8492EB52277741FF0031CF8F /* Time Visualizer (Charts)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8492EB34277741FE0031CF8F /* Time Visualizer (Charts) */ = {
+			isa = PBXGroup;
+			children = (
+				8492EB35277741FE0031CF8F /* AppDelegate.swift */,
+				8492EB37277741FE0031CF8F /* SceneDelegate.swift */,
+				8492EB39277741FE0031CF8F /* ViewController.swift */,
+				8492EB3B277741FE0031CF8F /* Main.storyboard */,
+				8492EB3E277741FF0031CF8F /* Assets.xcassets */,
+				8492EB40277741FF0031CF8F /* LaunchScreen.storyboard */,
+				8492EB43277741FF0031CF8F /* Info.plist */,
+				8492EB652777708C0031CF8F /* MyTableViewCell.swift */,
+				8492EB6727785E1B0031CF8F /* WordsViewController.swift */,
+				8492EB69277863530031CF8F /* ChartViewController.swift */,
+				8492EB6B27788D170031CF8F /* ChartTableViewCell.swift */,
+			);
+			path = "Time Visualizer (Charts)";
+			sourceTree = "<group>";
+		};
+		8492EB4B277741FF0031CF8F /* Time Visualizer (Charts)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8492EB4C277741FF0031CF8F /* Time_Visualizer__Charts_Tests.swift */,
+			);
+			path = "Time Visualizer (Charts)Tests";
+			sourceTree = "<group>";
+		};
+		8492EB55277741FF0031CF8F /* Time Visualizer (Charts)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8492EB56277741FF0031CF8F /* Time_Visualizer__Charts_UITests.swift */,
+				8492EB58277741FF0031CF8F /* Time_Visualizer__Charts_UITestsLaunchTests.swift */,
+			);
+			path = "Time Visualizer (Charts)UITests";
+			sourceTree = "<group>";
+		};
+		9D0D9F1B2E5DC520546F8A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C882740DC2CC721734F63911 /* Pods_Time_Visualizer__Charts_.framework */,
+				FCEAE804FACF84A6700FF838 /* Pods_Time_Visualizer__Charts__Time_Visualizer__Charts_UITests.framework */,
+				57A2A8572260B4FB386EAA96 /* Pods_Time_Visualizer__Charts_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8492EB31277741FE0031CF8F /* Time Visualizer (Charts) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492EB5C277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)" */;
+			buildPhases = (
+				BD9E1FE622F700062AE27E2F /* [CP] Check Pods Manifest.lock */,
+				8492EB2E277741FE0031CF8F /* Sources */,
+				8492EB2F277741FE0031CF8F /* Frameworks */,
+				8492EB30277741FE0031CF8F /* Resources */,
+				FDA3ABC712EF110F0F0E6120 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Visualizer (Charts)";
+			productName = "Time Visualizer (Charts)";
+			productReference = 8492EB32277741FE0031CF8F /* Time Visualizer (Charts).app */;
+			productType = "com.apple.product-type.application";
+		};
+		8492EB47277741FF0031CF8F /* Time Visualizer (Charts)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492EB5F277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)Tests" */;
+			buildPhases = (
+				E6D387A8E5F67D56E93AA94D /* [CP] Check Pods Manifest.lock */,
+				8492EB44277741FF0031CF8F /* Sources */,
+				8492EB45277741FF0031CF8F /* Frameworks */,
+				8492EB46277741FF0031CF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8492EB4A277741FF0031CF8F /* PBXTargetDependency */,
+			);
+			name = "Time Visualizer (Charts)Tests";
+			productName = "Time Visualizer (Charts)Tests";
+			productReference = 8492EB48277741FF0031CF8F /* Time Visualizer (Charts)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8492EB51277741FF0031CF8F /* Time Visualizer (Charts)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8492EB62277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)UITests" */;
+			buildPhases = (
+				2D973FA9579BF88EDE519644 /* [CP] Check Pods Manifest.lock */,
+				8492EB4E277741FF0031CF8F /* Sources */,
+				8492EB4F277741FF0031CF8F /* Frameworks */,
+				8492EB50277741FF0031CF8F /* Resources */,
+				EEB7361CD429185FF93C2BCB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8492EB54277741FF0031CF8F /* PBXTargetDependency */,
+			);
+			name = "Time Visualizer (Charts)UITests";
+			productName = "Time Visualizer (Charts)UITests";
+			productReference = 8492EB52277741FF0031CF8F /* Time Visualizer (Charts)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8492EB2A277741FE0031CF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8492EB31277741FE0031CF8F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8492EB47277741FF0031CF8F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8492EB31277741FE0031CF8F;
+					};
+					8492EB51277741FF0031CF8F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8492EB31277741FE0031CF8F;
+					};
+				};
+			};
+			buildConfigurationList = 8492EB2D277741FE0031CF8F /* Build configuration list for PBXProject "Time Visualizer (Charts)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8492EB29277741FE0031CF8F;
+			productRefGroup = 8492EB33277741FE0031CF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8492EB31277741FE0031CF8F /* Time Visualizer (Charts) */,
+				8492EB47277741FF0031CF8F /* Time Visualizer (Charts)Tests */,
+				8492EB51277741FF0031CF8F /* Time Visualizer (Charts)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8492EB30277741FE0031CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492EB42277741FF0031CF8F /* LaunchScreen.storyboard in Resources */,
+				8492EB3F277741FF0031CF8F /* Assets.xcassets in Resources */,
+				8492EB3D277741FE0031CF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB46277741FF0031CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB50277741FF0031CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D973FA9579BF88EDE519644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9E1FE622F700062AE27E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Visualizer (Charts)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D387A8E5F67D56E93AA94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Visualizer (Charts)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB7361CD429185FF93C2BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests/Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA3ABC712EF110F0F0E6120 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)/Pods-Time Visualizer (Charts)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)/Pods-Time Visualizer (Charts)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Visualizer (Charts)/Pods-Time Visualizer (Charts)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8492EB2E277741FE0031CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492EB3A277741FE0031CF8F /* ViewController.swift in Sources */,
+				8492EB662777708C0031CF8F /* MyTableViewCell.swift in Sources */,
+				8492EB6827785E1B0031CF8F /* WordsViewController.swift in Sources */,
+				8492EB36277741FE0031CF8F /* AppDelegate.swift in Sources */,
+				8492EB38277741FE0031CF8F /* SceneDelegate.swift in Sources */,
+				8492EB6C27788D170031CF8F /* ChartTableViewCell.swift in Sources */,
+				8492EB6A277863530031CF8F /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB44277741FF0031CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492EB4D277741FF0031CF8F /* Time_Visualizer__Charts_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8492EB4E277741FF0031CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8492EB59277741FF0031CF8F /* Time_Visualizer__Charts_UITestsLaunchTests.swift in Sources */,
+				8492EB57277741FF0031CF8F /* Time_Visualizer__Charts_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8492EB4A277741FF0031CF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8492EB31277741FE0031CF8F /* Time Visualizer (Charts) */;
+			targetProxy = 8492EB49277741FF0031CF8F /* PBXContainerItemProxy */;
+		};
+		8492EB54277741FF0031CF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8492EB31277741FE0031CF8F /* Time Visualizer (Charts) */;
+			targetProxy = 8492EB53277741FF0031CF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8492EB3B277741FE0031CF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8492EB3C277741FE0031CF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8492EB40277741FF0031CF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8492EB41277741FF0031CF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8492EB5A277741FF0031CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8492EB5B277741FF0031CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8492EB5D277741FF0031CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A475CCB0F0EC9EAD260C28D4 /* Pods-Time Visualizer (Charts).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time Visualizer (Charts)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8492EB5E277741FF0031CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FF320067C93FA35FEFB86E /* Pods-Time Visualizer (Charts).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time Visualizer (Charts)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8492EB60277741FF0031CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4392EAC85A3134A4C32B28BF /* Pods-Time Visualizer (Charts)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Visualizer (Charts).app/Time Visualizer (Charts)";
+			};
+			name = Debug;
+		};
+		8492EB61277741FF0031CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B191246ECB900D8221A0DBD5 /* Pods-Time Visualizer (Charts)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Visualizer (Charts).app/Time Visualizer (Charts)";
+			};
+			name = Release;
+		};
+		8492EB63277741FF0031CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB971A74B93B7D9A05A25F32 /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Visualizer (Charts)";
+			};
+			name = Debug;
+		};
+		8492EB64277741FF0031CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5D39E98D502DEE219369FF /* Pods-Time Visualizer (Charts)-Time Visualizer (Charts)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulrahman-alsultan.Time-Visualizer--Charts-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Visualizer (Charts)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8492EB2D277741FE0031CF8F /* Build configuration list for PBXProject "Time Visualizer (Charts)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492EB5A277741FF0031CF8F /* Debug */,
+				8492EB5B277741FF0031CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8492EB5C277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492EB5D277741FF0031CF8F /* Debug */,
+				8492EB5E277741FF0031CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8492EB5F277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492EB60277741FF0031CF8F /* Debug */,
+				8492EB61277741FF0031CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8492EB62277741FF0031CF8F /* Build configuration list for PBXNativeTarget "Time Visualizer (Charts)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8492EB63277741FF0031CF8F /* Debug */,
+				8492EB64277741FF0031CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8492EB2A277741FE0031CF8F /* Project object */;
+}

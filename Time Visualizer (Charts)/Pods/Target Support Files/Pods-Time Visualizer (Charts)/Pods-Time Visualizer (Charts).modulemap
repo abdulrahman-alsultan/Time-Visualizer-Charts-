@@ -1,0 +1,6 @@
+framework module Pods_Time_Visualizer__Charts_ {
+  umbrella header "Pods-Time Visualizer (Charts)-umbrella.h"
+
+  export *
+  module * { export * }
+}
